@@ -2,354 +2,1111 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="format-detection" content="telephone=no">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-		crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-		integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-		crossorigin="anonymous"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sarah Hart Landolt - Software Developer</title>
+	<meta name="description" content="Creative Portfolio Template" />
+	<meta name="keywords"
+		content="blog, business card, creative, creative portfolio, cv theme, online resume, personal, portfolio, professional cv, responsive portfolio, resume, resume theme, vcard" />
+	<meta name="author" content="beingeorge" />
+	<meta name="theme-color" content="#000">
 
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+	<!-- Vendor Css-->
+	<link rel="stylesheet" href="assets/css/vendor.css" />
+	<link rel="stylesheet" href="assets/css/LineIcons.min.css" />
+	<link rel="stylesheet" href="assets/plugins/css/jquery.fancybox.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/photoswipe.min.css" />
+	<link rel="stylesheet" type="text/css" href="assets/css/default-skin.min.css" />
 
-	<link rel="stylesheet" href="style.css">
-	<title>Gracious Ngetich Resume</title>
 
-<body>
+	<!-- Settings style Css -->
+	<link href="assets/css/settings.css" rel="stylesheet">
+
+	<!-- AnjTemplate style Css -->
+	<link href="assets/css/theme-darkblue.css" rel="stylesheet">
+	<!-- <link href="assets/css/theme-green.css" rel="stylesheet"> -->
+	<!-- <link href="assets/css/theme-pink.css" rel="stylesheet"> -->
+	<!-- <link href="assets/css/theme-purple.css" rel="stylesheet"> -->
+	<!-- <link href="assets/css/theme-yellow.css" rel="stylesheet"> -->
+	<!-- <link href="assets/css/theme-red.css" rel="stylesheet"> -->
+	<!-- <link href="assets/css/theme-blue.css" rel="stylesheet"> -->
+	<!-- <link href="assets/css/theme-grey.css" rel="stylesheet"> -->
+
+	<!-- Custom style Css -->
+	<link href="assets/css/custom.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar-collapse">
+	<!-- Start Loader -->
+	<div class="section-loader">
+		<div class="loader">
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+
+	<!-- Setting Panel -->
+	<!-- <div class="settings_panel">
+		<div class="toggle_bts">
+			<a class="toggle-theme-panel active" href="#">
+				<i class='lni lni-cog'></i>
+			</a>
+		</div>
+		<div class="settings-content">
+			<h5>Color Switcher</h5>
+			<ul class="colors-switch">
+				<li><a href="#" title="theme-blue" class="theme-blue"></a></li>
+				<li><a href="#" title="theme-green" class="theme-green"></a></li>
+				<li><a href="#" title="theme-red" class="theme-red"></a></li>
+				<li><a href="#" title="theme-yellow" class="theme-yellow"></a></li>
+				<li><a href="#" title="theme-purple" class="theme-purple"></a></li>
+				<li><a href="#" title="theme-pink" class="theme-pink"></a></li>
+				<li><a href="#" title="theme-darkblue" class="theme-darkblue"></a></li>
+				<li><a href="#" title="theme-grey" class="theme-grey"></a></li>
+			</ul>
+			<h5>Background Demos</h5>
+			<ul class="bg-demo">
+				<li><a title="Background Image" href="index.html">Version 1</a></li>
+				<li><a title="Background Image with particles" href="index-2.html">Version 2</a></li>
+			</ul>
+		</div>
+	</div> -->
+	<!-- Setting Panel -->
+
+	<!-- START: Preloader -->
+	<div id="preloader" class="preloader">
+		<div class="spinner">
+			<div class="spinner-grow" role="status">
+			</div>
+			<span class="sr-only">Loading...</span>
+		</div>
+		<div class="preloader-screens">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+	<!-- END: Preloader -->
+
+	<!-- START: Aside -->
+	<aside class="aside">
+		<!-- START: NAVBAR -->
+
+		<div class="nav-wrapper">
+
+			<div class="navbar-toggler">
+				<svg class="ham hamRotate ham1" viewBox="0 0 100 100" width="60">
+					<path class="line top"
+						d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+					<path class="line middle" d="m 30,50 h 40" />
+					<path class="line bottom"
+						d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+				</svg>
+			</div>
+
+			<nav class="navbar text-center align-items-center justify-content-center">
+
+
+
+				<div class="collapse navbar-collapse show" id="navbarCollapse">
+					<div class="about-avatar mb-5">
+						<div class="about-avatar-details">
+							<h1><img src="assets/images/SHL LOGO CODING1.png"></h1>
+						</div>
+					</div>
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item">
+							<a class="nav-link ripple active" href="#home">
+								<i class="lni-home"></i>
+								<span>Home</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link ripple" href="#about">
+								<i class="lni-pencil"></i>
+								<span>About</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link ripple" href="#services">
+								<i class="lni-offer"></i>
+								<span>Services</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link ripple" href="#portfolio">
+								<i class="lni-briefcase"></i>
+								<span>Portfolio</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link ripple" href="#resume">
+								<i class="lni-graduation"></i>
+								<span>resume</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="aside-scroll">
+					<i class='lni lni-arrow-down'></i>
+					<span>Scroll Down</span>
+				</div>
+			</nav>
+		</div>
+		<!-- END: NAVBAR -->
+	</aside>
+	<!-- START: Aside -->
+
+	<div class="page-wrapper section-dark">
+
+		<!-- START: HOME -->
+		<section class="section section-home " id="home">
+			<div class="container h-100vh">
+				<div class="row justify-content-center align-items-center  h-100vh">
+					<div class="col-md-6 text-center">
+						<div class="hero-img-wrap " id="scene">
+							<img data-depth="0.4" class="hero-img img-fluid"
+								src="assets/images/sarah hart landolt, developer.jpg" alt="About Picture">
+							<div data-depth="0.7"></div>
+							<div data-depth="1"></div>
+							<div data-depth="1.3"></div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="hero-right mt-5 mt-md-0 text-center text-md-left " data-wow-delay="300ms">
+							<h5>HI THERE !</h5>
+							<h1 class="my-4"> I'm <span class="typed"
+									data-elements="Sarah Hart Landolt., A Software Developer., An Abstract Artist."></span>
+							</h1>
+							<p>Software Developer. Artist. Designer.</p>
+							<br>
+							<div class="infoContainer">
+								<img data-depth="0.4" class="logoImg" src="assets/images/SHL LOGO CODING1.png"
+									alt="Coding logo">
+								<ul>
+									<li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"
+										style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">
+										<i class="fa fa-envelope"></i><a
+											href="mailto:sarah.hart.landolt@gmail.com">sarah.hart.landolt@gmail.com</a>
+									</li>
+									<li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"
+										style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.5s; animation-name: fadeInUp;">
+										<i class="fa fa-phone"></i><a>(615) 568-3967</a></li>
+									<li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"
+										style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.6s; animation-name: fadeInUp;">
+										<i class="fa fa-map-marker"></i>
+										<address>Nashville, TN, USA</address>
+										<ul class="about-desc-social">
+											<li class="list-inline-item"><a class="hover-state"
+													href="https://www.linkedin.com/in/sarah-hart-landolt/"><i
+														class="lni lni-linkedin-original"></i></a></li>
+											<li class="list-inline-item"><a class="hover-state"
+													href="https://github.com/sarah-hart-landolt"><i
+														class="lni lni-github"></i></a></li>
+											<li class="list-inline-item"><a class="hover-state"
+													href="sarahhartlandolt.com"><i class="lni lni-website"></i></a></li>
+											<li class="list-inline-item"><a class="hover-state"
+													href="https://www.facebook.com/sarahhartart/"><i
+														class="lni lni-facebook-filled"></i></a></li>
+										</ul>
+
+									</li>
+								</ul>
+							</div>
+
+							<div class="hero-right--btns my-4">
+								<a href="https://linkedin.com/" target="_blank" class="btn ripple">Learn More</a>
+								<a href="https://drive.google.com/file/d/1JIzTnzjaE9T9qMHrupyVa98bmIA4pLQv/view?usp=sharing"
+									target="_blank" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s"
+									data-wow-delay="0.4s"
+									style="visibility: visible; animation-duration: 0.8s; animation-delay: 0.4s; animation-name: fadeInUp;">Download
+									CV <i class="fa fa-download"></i></a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="scroll-down"></div>
+		</section>
+		<!-- END: HOME -->
+		<section class="section section-dark section-about in" id="about">
+			<div class="container">
+				<div class="row justify-content-center align-items-center pb-5">
+
+					<div class="col-md-6">
+						<div class="section-about--img wow fadeInUp"
+							style="visibility: visible; animation-name: fadeInUp;">
+							<img class="img-fluid mx-auto d-block" src="assets/images/NDW_Headshots_0869.jpg"
+								alt="About Picture">
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="about-desc">
+							<div class="about-desc-content text-left">
+								<h2>About Me</h2>
+								<p class="mt-4 font-weight-light">I'm an extroverted, passionate software developer and abstract artist who enjoys painting with the magical tools of programming languages to render visually striking, artistically-driven web applications. After learning C# and .NET in the back end, I'm intrigued with the problem solving puzzles in SQL queries while also building RESTful APIs. After a decade of teaching language and a year transitioning into art full-time, I pursued software development to marry all my creative interests and channel the elements that make me thrive: creation, ideation, problem-solving, dynamism, challenge, mentorship and teamwork.</p>
+
+							</div>
+							<br>
+							<div class="about-desc-more text-left">
+								<div class="row">
+									<div class="col-lg-6">
+										<div class="about-desc-info">
+											<b>Location : </b>
+											<span>Nashville, TN</span>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="about-desc-info">
+											<b>Degree : </b>
+											<span>Masters</span>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="about-desc-info">
+											<b>Phone : </b>
+											<a href="tel:6155683967">615-568-3967</a>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="about-desc-info">
+											<b>Email : </b><a
+												href="mailto:sarah.hart.landolt@gmail.com">sarah.hart.landolt@gmail.com</a>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+		</section>
+		<!-- START: SERVICES -->
+		<section class="section section-dark section-services" id="services">
+			<div class="container">
+				<div class="section-head">
+					<span>WHAT I DO</span>
+					<h2>Technologies I Use</h2>
+				</div>
+
+				<div class="row service-wrap">
+					<div class="col-lg-4 col-sm-6 pd-15">
+						<div class="service-box">
+							<img src="http://www.mothedev.com/img/s-icon-1.png" alt="img">
+							<div class="service-content">
+								<h3>GitHub</h3>
+								<p>Source code version control with GitHub. Project management with Github Projects
+									&amp; Issue
+									tracking.</p>
+								<!-- <a href="#" class="read-more">Read More</a> -->
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 pd-15">
+						<div class="service-box">
+							<img src="http://www.mothedev.com/img/s-icon-2.png" alt="img">
+							<div class="service-content">
+								<h3>C Sharp</h3>
+								<p>Experienced in the use of C# including the building of web applications, and APIs
+								</p>
+								<!-- <a href="#" class="read-more">Read More</a> -->
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 pd-15">
+						<div class="service-box">
+							<img src="http://www.mothedev.com/img/s-icon-3.png" alt="img">
+							<div class="service-content">
+								<h3>JavaScript</h3>
+								<p>JavaScript fundamentals as well as experience building single page vanilla JS
+									applications. </p>
+								<!-- <a href="#" class="read-more">Read More</a> -->
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 pd-15">
+						<div class="service-box">
+							<img src="http://www.mothedev.com/img/s-icon-4.png" alt="img">
+							<div class="service-content">
+								<h3>ReactJS</h3>
+								<p>Experience in the creation of single page applications using the ReactJS library.</p>
+								<!-- <a href="#" class="read-more">Read More</a> -->
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 pd-15">
+						<div class="service-box">
+							<img class="techImageIcon"
+								src="https://nss-day-cohort-34.github.io/Class-Website/images/techs/vsc.png" alt="img">
+							<div class="service-content">
+								<h3>Visual Studio Code</h3>
+								<p>Experience Coding & live-coding share with VSCode</p>
+								<!-- <a href="#" class="read-more">Read More</a> -->
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 pd-15">
+						<div class="service-box">
+							<img src="http://www.mothedev.com/img/s-icon-6.png" alt="img">
+							<div class="service-content">
+								<h3>HTML 5</h3>
+								<p>Well versed in the use of HTML 5 syntax for static web/app design.</p>
+								<!-- <a href="#" class="read-more">Read More</a> -->
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 pd-15">
+						<div class="service-box">
+							<img src="http://www.mothedev.com/img/s-icon-7.png" alt="img">
+							<div class="service-content">
+								<h3>CSS 3</h3>
+								<p>Thoroughly enjoy employing my artistic and aesthetic gifts with the styling tools of
+									CSS.</p>
+								<!-- <a href="#" class="read-more">Read More</a> -->
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 pd-15">
+						<div class="service-box">
+							<img src="http://www.mothedev.com/img/s-icon-8.png" alt="img">
+							<div class="service-content">
+								<h3>Bootstrap</h3>
+								<p>Equally enjoy the UI/UX styling and design through Bootstrap and Reactstrap.</p>
+								<!-- <a href="#" class="read-more">Read More</a> -->
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-sm-6 pd-15">
+						<div class="service-box">
+							<img src="http://www.mothedev.com/img/s-icon-5.png" alt="img">
+							<div class="service-content">
+								<h3>Dot Net</h3>
+								<p>Experience with ADO.Net, ASP.net, Entity and Identity frameworks, and MVC.</p>
+								<!-- <a href="#" class="read-more">Read More</a> -->
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<br>
+				<br>
+				<br>
+				<section class="mh-skills" id="mh-skills">
+					<div class="container">
+						<div class="row section-separator">
+							<div>
+
+
+								<!-- <div class="section-inner p-0 p-md-5">
+									<div class="row">
+
+
+									</div> -->
+
+				<!-- END: SERVICES -->
+
+				<!-- START: PORTFOLIO -->
+				<section class="section" id="portfolio">
+					<div class="modal fade" id="FeelingHeartModal" role="dialog">
+						<div class="modal-dialog">
+
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<H2 class="modalTitle">Feeling Heart</H2>
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+								</div>
+								<div class="modal-body">
+									<div class="videoContainer">
+										<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/6bc787e6d58f43f3b5af41153092d061" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+									</div>
+									<div class="modalHeader">
+
+									</div>
+									<div>
+										<br>
+										<p>Feeling Heart is an app created for clients of my art who want to customize
+											their own Feeling Heart chart, instead of/ in addition to buying the
+											standard version. In the process, this app helps promote emotional
+											intelligence and a way to your inner world through color and shape instead
+											of language alone.</p>
+										<br>
+										<ul>
+											<li>Front end capstone project built in React using JSON server
+												to store user, saved chart data and purchased products.</li>
+											<li>Full CRUD functionality allows users to maintain saved Feeling Heart
+												Charts.
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<a href="https://github.com/sarah-hart-landolt/Feeling-Heart-Chart" target="_blank"
+										class="btn button">View the Code</a>
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="modal fade" id="ParisModal" role="dialog">
+						<div class="modal-dialog">
+
+							<!-- Modal content-->
+							<div class="modal-content">
+								<div class="modal-header">
+									<H2 class="modalTitle">Paris Passe Partout</H2>
+									<button type="button" class="close" data-dismiss="modal">&times;</button>
+								</div>
+								<div class="modal-body">
+									
+									<iframe width="426" height="240" src="https://www.youtube.com/embed/pA0SUzmEJO0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									<div class="modalHeader">
+
+									</div>
+									<div>
+										<br>
+										<p>Paris-Passe-Partout is a social media, travel web app, created for lovers of Paris to curate and keep track of their favorite places in the city while also following and saving others' recommendations and itineraries. It's a vetted, curated Google Maps, travel blog and Instagram in one.  
+										</p>
+										<br>
+									</div>
+								</div>
+								<div class="modal-footer">
+									<a href="https://github.com/sarah-hart-landolt/Paris-Passe-Partout" target="_blank"
+										class="btn button">View the Code</a>
+									<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								</div>
+							</div>
+
+						</div>
+					</div>
+			</div> 
+			<div class="container">
+				<div class="row">
+					<div class="col-6 col-md-4">
+						<div class="section-head">
+							<span>TAKE A LOOK AT</span>
+							<h2>My Projects</h2>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<ul id="filter" class="filter mt-4">
+							<li class=" active" data-group="all">All</li>
+							<li class="" data-group="JavaScript">JavaScript</li>
+							<li class="" data-group="React">React</li>
+							<li class="" data-group="C#">C#</li>
+							<li class="" data-group=".NET">.NET</li>
+							<li class="" data-group="SQL">SQL Server</li>
+
+
+
+						</ul>
+					</div>
+				</div>
+
+
+				<div class="section-inner p-0 p-md-5">
+					<div class="list-items-container row my-gallery">
+					    <figure class="col-6 col-md-4 list-item" itemprop="associatedMedia" data-groups="C# .NET React SQL">
+							<img src="assets/images/parispassepartout.png" itemprop="thumbnail"
+								alt="Image description" />
+
+							<!-- </a> -->
+							<figcaption itemprop="caption description">
+								<div class="caption-inner">
+									<h3 class="portfolio-item-title">Paris Passe-Partout</h3>
+									<div class="portfolio-item-desc">FullStack social media app for Paris, FR
+									</div>
+									</a>
+									<button type="button" data-toggle="modal" data-target="#ParisModal"
+										class="btn btn-outline-secondary btn-lg" id="myBtn">Learn
+										More</button>
+								</div>
+							</figcaption>
+						</figure>
+						<figure class="col-6 col-md-4 list-item" itemprop="associatedMedia" data-groups="all React">
+							<img src="assets/images/FeelingHeartCapstone.png" itemprop="thumbnail"
+								alt="Image description" />
+
+							<!-- </a> -->
+							<figcaption itemprop="caption description">
+								<div class="caption-inner">
+									<h3 class="portfolio-item-title">Feeling Heart Capstone Project</h3>
+									<div class="portfolio-item-desc">React App to customize feeling charts with art
+									</div>
+									</a>
+									<button type="button" data-toggle="modal" data-target="#FeelingHeartModal"
+										class="btn btn-outline-secondary btn-lg" id="myBtn">Learn
+										More</button>
+										
+								</div>
+							</figcaption>
+						</figure>
+						<figure class="col-6 col-md-4 list-item" itemprop="associatedMedia" data-groups="SQL .NET C# React slideshow">
+							<a href="assets/images/TabloidHomeLogo.png" itemprop="contentUrl" data-size="1024x1024">
+								<img src="assets/images/TabloidHomeLogo.png" itemprop="thumbnail"
+									alt="Tabloid Full Stack website" />
+							</a>
+							<figcaption itemprop="caption description">
+								<div class="caption-inner">
+									<h3 class="portfolio-item-title">Tabloid</h3>
+									<div class="portfolio-item-desc">Full Stack</div>
+									<a href="https://github.com/nss-day-cohort-39/tabloid-full-stack-velours" target="_blank"
+									class="btn button">View the Code</a>
+		
+													</div>
+							</figcaption>
+						</figure>
+
+						<figure class="col-6 col-md-4 list-item" itemprop="associatedMedia" data-groups="SQL .NET C#">
+							<a href="assets/images/TabloidMVC.png" itemprop="contentUrl" data-size="1024x1024">
+								<img src="assets/images/TabloidMVC.png" itemprop="thumbnail"
+									alt="Tabloid MVC" />
+							</a>
+							<figcaption itemprop="caption description">
+								<div class="caption-inner">
+									<h3 class="portfolio-item-title">Tabloid</h3>
+									<div class="portfolio-item-desc">MVC</div>
+									<a href="https://github.com/sarah-hart-landolt/tabloid-mvc-the-cure" target="_blank"
+									class="btn button">View the Code</a>
+		
+													</div>
+							</figcaption>
+						</figure>
+
+						<figure class="col-6 col-md-4 list-item" itemprop="associatedMedia" data-groups="all React">
+							<a href="assets/images/nashville kennels.png" itemprop="contentUrl" data-size="1024x1024">
+								<img src="assets/images/nashville kennels.png" itemprop="thumbnail"
+									alt="nashville kennels website" />
+							</a>
+							<figcaption itemprop="caption description">
+								<div class="caption-inner">
+									<h3 class="portfolio-item-title">Nashville Kennels</h3>
+									<div class="portfolio-item-desc">React App</div>
+									<a href="https://github.com/sarah-hart-landolt/nashvilleKennels" target="_blank"
+									class="btn button">View the Code</a>
+								</div>
+							</figcaption>
+						</figure>
+
+						<figure class="col-6 col-md-4 list-item" itemprop="associatedMedia"
+							data-groups="all JavaScript">
+							<a href="assets/images/nutshell.png" itemprop="contentUrl" data-size="1024x1024">
+								<img src="assets/images/nutshell.png" itemprop="thumbnail" alt="nutshell website" />
+							</a>
+							<figcaption itemprop="caption description">
+								<div class="caption-inner">
+									<h3 class="portfolio-item-title">Nutshell Social Dashboard</h3>
+									<div class="portfolio-item-desc">JavaScript Wbsi</div>
+									<a href="https://github.com/nss-day-cohort-39/nutshell-zaffre-zorillas" target="_blank"
+									class="btn button">View the Code</a>
+								</div>
+							</figcaption>
+						</figure>
+
+						<figure class="col-6 col-md-4 list-item" itemprop="associatedMedia"
+							data-groups="all JavaScript">
+							<a href="assets/images/3.png" itemprop="contentUrl" data-size="1024x1024">
+								<img src="assets/images/3.png" itemprop="thumbnail" alt="3 blind mice website" />
+							</a>
+							<figcaption itemprop="caption description">
+								<div class="caption-inner">
+									<h3 class="portfolio-item-title">3 Blind Mice Consulting</h3>
+									<div class="portfolio-item-desc">Javascript</div>
+									<a href="https://github.com/sarah-hart-landolt/three-blind-mice" target="_blank"
+									class="btn button">View the Code</a>
+								</div>
+							</figcaption>
+						</figure>
+
+						<figure class="col-6 col-md-4 list-item" itemprop="associatedMedia"
+							data-groups="all JavaScript">
+							<a href="assets/images/holidayroad.png" itemprop="contentUrl" data-size="1024x1024">
+								<img src="assets/images/holidayroad.png" itemprop="thumbnail" alt="Image description" />
+							</a>
+							<figcaption itemprop="caption description">
+								<div class="caption-inner">
+									<h3 class="portfolio-item-title">Holiday Road</h3>
+									<div class="portfolio-item-desc">JavaScript Group Project</div>
+									<a href="https://github.com/nss-day-cohort-39/holiday-road-galactic-giraffes" target="_blank"
+									class="btn button">View the Code</a>
+								</div>
+							</figcaption>
+						</figure>
+
+						<figure class="col-6 col-md-4 list-item" itemprop="associatedMedia"
+							data-groups="all JavaScript">
+							<a href="assets/images/glassdale.png" itemprop="contentUrl" data-size="1024x1024">
+								<img src="assets/images/glassdale.png" itemprop="thumbnail" alt="Image description" />
+							</a>
+							<figcaption itemprop="caption description">
+								<div class="caption-inner">
+									<h3 class="portfolio-item-title">Glassdale PD</h3>
+									<div class="portfolio-item-desc">JavaScript Project to help solve a crime</div>
+									<a href="https://github.com/sarah-hart-landolt/Glassdale-PD" target="_blank"
+									class="btn button">View the Code</a>
+								</div>
+							</figcaption>
+						</figure>
+
+						<figure class="col-6 col-md-4 list-item" itemprop="associatedMedia"
+							data-groups="all JavaScript">
+							<a href="assets/images/dailyjournal.png" itemprop="contentUrl" data-size="1024x1024">
+								<img src="assets/images/dailyjournal.png" itemprop="thumbnail"
+									alt="Image description" />
+							</a>
+							<figcaption itemprop="caption description">
+								<div class="caption-inner">
+									<h3 class="portfolio-item-title">Daily Journal</h3>
+									<div class="portfolio-item-desc">Javascript website for cataloging daily life of
+										software development</div>
+										<a href="https://github.com/sarah-hart-landolt/nss-daily-journal" target="_blank"
+										class="btn button">View the Code</a>
+								</div>
+							</figcaption>
+						</figure>
+
+						<figure class="col-6 col-md-4 list-item" itemprop="associatedMedia"
+							data-groups="all JavaScript">
+							<a href="assets/images/aquarium.png" itemprop="contentUrl" data-size="1024x1024">
+								<img src="assets/images/aquarium.png" itemprop="thumbnail" alt="Image description" />
+							</a>
+							<figcaption itemprop="caption description">
+								<div class="caption-inner">
+									<h3 class="portfolio-item-title">Martin's Aquarium</h3>
+									<div class="portfolio-item-desc">JavaScript Project for Martin, fictional client
+									</div>
+									<a href="https://github.com/sarah-hart-landolt/Martins-Aquarium-" target="_blank"
+									class="btn button">View the Code</a>
+								</div>
+							</figcaption>
+						</figure>
+
+					</div><!-- .projects-container -->
+				</div>
+			</div>
+		</section>
+		<!-- END: PORTFOLIO -->
 
 	
-<script src="./main.js"></script>
-
-
-<p>
-	<span id="replaceme"></span>
-</p>
-
-
-	<div class="overall-container">
-		<div class="d-flex flex-row-reverse">
-			<div class="p2">&nbsp;&nbsp;&nbsp;</div>
-			<div id="counter" class="bg-primary text-white p2"></div>
+<!-- START: TESTIMONY -->
+<section class="section section-dark section-testimony" id="testimony">
+	<div class="container">
+		<div class="section-head text-center">
+			<span>Kind Words</span>
+			<h2>testimonial</h2>
 		</div>
-
-		<div class="container text-center">
-			<div class="row no-gutters">
-				<div class="col-sm-12">
-					<h1 class="display-4">Gracious C. Ngetich</h1>
-				</div>
-			</div>
-			<div class="row no-gutters">
-				<div class="col-sm-12">
-					<p class="text-muted">Nairobi, KE | Eldoret, KE</p>
-				</div>
-			</div>
-
-			<br>
-
-			<div class="row no-gutters">
-				<div class="col-sm-12 col-md-6">
-					<a style="margin-bottom: 0rem; text-decoration: none">(+254)798981876</a>
-				</div>
-				<div class="col-sm-12 col-md-6">
-					<a href="mailto:graciousngetich7712@protonmail.com"
-						class="text-reset" style="margin-bottom: 0rem">graciousngetich7712@protonmail.com</a>
-				</div>
-				<div class="col-sm-12 col-md-6">
-					<a href="https://www.linkedin.com/in/graciousngetich/" class="text-reset" style="margin-bottom: 0rem"
-						target="_blank">linkedin.com/in/graciousngetich/</a>
-				</div>
-				<div class="col-sm-12 col-md-4">
-					<a href="https://github.com/GraciousNgetich" class="text-reset" style="margin-bottom: 0rem"
-						target="_blank">github.com/GraciousNgetich</a>
-				</div>
-			</div>
-		</div>
-
-		<br>
-		<br>
-
-		<div class="main-container">
+		<div class="section-inner section-testimony--content p-3 p-md-5">
 			<div class="row">
-				<div class="col-sm-8 col-md-7 col-lg-7">
-					<h5 class="text-muted text-uppercase" style="border-bottom: 1.5px solid #9C9C9C">Certifications</h5>
-					<ul class="list-unstyled">
-						<li>
-							<p class="text-primary" style="font-size:17px; margin-bottom: -.5rem">AWS Certified Cloud
-								Practitioner / Kubernetes / Docker / Terraform</p>
-							<p><a class="text-primary text-muted" style="font-size:14px"
-									href=" "
-									target="_blank"></a> Learning In Progress</p>
-						</li>
-						<li>
-							<p class="text-primary" style="font-size:17px; margin-bottom: -.5rem">CCNA: Enterprise Networking, Security, and Automation</p>
-							<p><a class="text-primary text-muted" style="font-size:14px"
-									href="https://www.credly.com/badges/0482f7e0-8dde-406a-b8ca-a1e9e4a8db72/public_url" target="_blank">View</a></p>
-						</li>
-						<li>
-							<p class="text-primary" style="font-size:17px; margin-bottom: -.5rem">CCNA: Switching, Routing, and Wireless Essentials</p>
-							<p><a class="text-primary text-muted" style="font-size:14px"
-									href="https://www.credly.com/badges/955bf698-7522-4dd5-98cb-b2be68de7625/public_url" target="_blank">View</a></p>
-						</li>
-						<li>
-							<p class="text-primary" style="font-size:17px; margin-bottom: -.5rem">CCNA: Introduction to Networks</p>
-							<p><a class="text-primary text-muted" style="font-size:14px"
-									href="https://www.credly.com/badges/92d9c52c-7a86-4e5e-a8fb-d743516032df/public_url" target="_blank">View</a></p>
-						</li>
-					</ul>
-					<h5 class="text-muted text-uppercase" style="border-bottom: 1.5px solid #9C9C9C">Education</h5>
-					<h4>Bachelor of Business Management</h4>
-					<p class="text-primary" style="margin-bottom: .5rem">Moi University</p>
-					<div class="row">
-						<div class="col-sm-4 col-md-5 col-lg-4">
-							<p class="font-weight-light"
-								style="margin-bottom: -.1rem; font-size: 14px; line-height: 2;">08/2014 -
-								12/2019</p>
-						</div>
-						<div class="col-sm-4 col-md-5 col-lg-4">
-							<p class="font-weight-light" style="margin-bottom: 0rem; font-size: 14px; ">Eldoret, KENYA</p>
-						</div>
-					</div>
-
-					<div class="row">
-						<div class="col-sm-9">
-							<ul>
-								<li style="margin-top: .75rem">Minor: Business Information Technology</li>
-							</ul>
-						</div>
-					</div>
-
-					<br>
-
-					<h5 class="text-muted text-uppercase" style="border-bottom: 1.5px solid #9C9C9C">Experience</h5>
-					<h4>Network Administator</h4>
-					<div class="row">
-						<div class="col-md-3 text-primary">
-							<p style="margin-bottom: .5rem">Road Safety Association of Kenya</p>
-						</div>
-						<div class="col-md-auto">
-							<p class="font-weight-light"
-								style="margin-bottom: -.20rem; font-size: 14px; line-height: 2;"> 01/2021
-								12/2021</p>
-						</div>
-						<div class="col-md-auto">
-							<p class="font-weight-light"
-								style="margin-bottom: .5rem; font-size: 14px; line-height: 2;">Contract</p>
-						</div>
-					</div>
-					<ul>
-						<li>Maintained computer networks and systems including software, mainframes, VPNs, routers and other physical hardware.
-						</li>
-						<li>Installed and configured network equipment to update or fix hardware or software issues.</li>
-						<li>Updated virus protection software to keep data and communications protected.</li>
-						<li>Monitored computer systems to improve network performance for computer systems and networks.</li>
-						<li>Communicatied networking issues to other employees and management, especially in training new users.</li>
-						<li>Fixed software and hardware configuration issues for users on-demand or from inspection of the systems</li>
-					</ul>
-					<h4>Local HR Intern</h4>
-					<div class="row">
-						<div class="col-md-3 text-primary">
-							<p style="margin-bottom: .5rem">Uasin Gishu County Government</p>
-						</div>
-						<div class="col-md-auto">
-							<p class="font-weight-light"
-								style="margin-bottom: -.20rem; font-size: 14px; line-height: 2;">05/2018 -
-								08/2018</p>
-						</div>
-						<div class="col-md-auto">
-							<p class="font-weight-light"
-								style="margin-bottom: .5rem; font-size: 14px; line-height: 2;">Eldoret, Kenya
-							</p>
-						</div>
-					</div>
-					<ul>
-						<li>Updating company databases by inputting new employee contact information and employment details.</li>
-						<li>Screening potential employees' resumes and application forms to identify suitable candidates to fill company job vacancies.</li>
-						<li>Organizing interviews with shortlisted candidates.</li>
-						<li>Posting job advertisements to job boards and social media platforms.</li>
-						<li>Removing job advertisements from job boards and social media platforms once vacancies have been filled.</li>
-						<li>Assisting the HR staff in gathering market salary information.</li>
-						<li>Assisting in the planning of company events.</li>
-						<li>Preparing and sending offer and rejection letters or emails to candidates.</li>
-						<li>Coordinating new hire orientations.</li>
-						<li>Responding to staff inquiries regarding HR policies, employee benefits, and other HR-related matters.</li>
-					</ul>
-
-					<h4>Technology Support Specialist</h4>
-					<div class="row">
-						<div class="col-md-3 text-primary">
-							<p style="margin-bottom: .5rem">Moi Univeristy</p>
-						</div>
-						<div class="col-md-auto">
-							<p class="font-weight-light"
-								style="margin-bottom: -.20rem; font-size: 14px; line-height: 2;">10/2015 -
-								05/2017</p>
-						</div>
-						<div class="col-md-auto">
-							<p class="font-weight-light"
-								style="margin-bottom: .5rem; font-size: 14px; line-height: 2;">Eldoret, Kenya</p>
-						</div>
-					</div>
-					<ul>
-						<li>Provided service and support to resolve hardware, software, and network issues on campus
-							and satellite
-							buildings for 580 faculty members.</li>
-						<li>Achieve excellent customer service by providing how-to-training and technical solutions of
-							various
-							complexity
-							through diagnosing and troubleshooting.</li>
-						<li>Maintained records of daily data communication transactions, problems and remedial actions
-							taken, or
-							installation
-							activities.</li>
-						<li>Received numerous commendations for prompt, reliable, and friendly customer service.</li>
-					</ul>
-				</div>
-
-				<div class="col-sm-4 col-md-5 col-lg-5">
-					<h5 class="text-muted text-uppercase" style="border-bottom: 1.5px solid #9C9C9C">Technologies</h5>
-					<div class="row">
-						<div class="col-auto">
-							<p style="border-bottom: 1.5px solid #9C9C9C">AWS</p>
-						</div>
-						<!-- <div class="col-auto">
-							<p style="border-bottom: 1.5px solid #9C9C9C">Serverless/SAM</p>
-						</div>
-						<div class="col-auto">
-							<p style="border-bottom: 1.5px solid #9C9C9C">Lambda</p>
-						</div>
-						<div class="col-auto">
-							<p style="border-bottom: 1.5px solid #9C9C9C">API Gateway</p>
-						</div>
-						<div class="col-auto">
-							<p style="border-bottom: 1.5px solid #9C9C9C">DynamoDB</p>
-						</div>
-						<div class="col-auto">
-							<p style="border-bottom: 1.5px solid #9C9C9C">S3</p>
-						</div>
-						<div class="col-auto">
-							<p style="border-bottom: 1.5px solid #9C9C9C">Code Build</p>
-						</div>
-						<div class="col-auto">
-							<p style="border-bottom: 1.5px solid #9C9C9C">CloudFormation</p>
-						</div>
-						<div class="col-auto">
-							<p style="border-bottom: 1.5px solid #9C9C9C">CloudFront</p>
-						</div> -->
-						<div class="col-auto">
-							<p style="border-bottom: 1.5px solid #9C9C9C">Bash</p>
-						</div>
-						<div class="col-auto">
-							<p style="border-bottom: 1.5px solid #9C9C9C">Docker</p>
-						</div>
-						<div class="col-auto">
-							<p style="border-bottom: 1.5px solid #9C9C9C">Kubernetes</p>
-						</div>
-						<!-- <div class="col-auto">
-							<p style="border-bottom: 1.5px solid #9C9C9C">Ansible</p>
-						</div> -->
-						<div class="col-auto">
-							<p style="border-bottom: 1.5px solid #9C9C9C">Terraform</p>
-						</div>
-						<!-- <div class="col-auto">
-							<p style="border-bottom: 1.5px solid #9C9C9C">Jenkins</p>
-						</div> -->
-						<div class="col-auto">
-							<p style="border-bottom: 1.5px solid #9C9C9C">Html</p>
-						</div>
-						<div class="col-auto">
-							<p style="border-bottom: 1.5px solid #9C9C9C">Css</p>
-						</div>
-						<div class="col-auto">
-							<p style="border-bottom: 1.5px solid #9C9C9C">Python</p>
-						</div>
-						<div class="col-auto">
-							<p style="border-bottom: 1.5px solid #9C9C9C">Git</p>
-						</div>
-						<div class="col-auto">
-							<p style="border-bottom: 1.5px solid #9C9C9C">Linux</p>
-						</div>
-					</div>
-					<h5 class="text-muted text-uppercase" style="border-bottom: 1.5px solid #9C9C9C">Projects</h5>
-					<h4 style="margin-bottom: 0rem">Serverless Website</h4>
-					<div class="row">
-						<div class="col-md-3 text-primary">
-							<p style="margin-bottom: .5rem">IN PROGRESS</p>
-						</div>
-					</div>
-					<p>Serverless resume website with view counter using AWS
-					<ul>
-						<li>Built a responsive site in HTML using the Bootstrap framework.</li>
-						<li>View counter uses a Lambda function written in Python to update DynamoDB's atomic counter.
-						</li>
-						<li>The Lambda function runs when API is called and displayed using JavaScript.</li>
-						<li>View counter uses a function on the JSON response to bypass API Gateway's decimal encoding
-							limitation.
-						</li>
-						<li>Website front-end is deployed through CloudFront with an S3 origin.</li>
-						<li>Infrastructure is fully automated using CloudFormation and the AWS Serverless Application
-							Model (SAM).
-						</li>
-						<li>CI/CD pipeline using GitHub Actions and AWS CodePipeline and CodeDeploy.</li>
-						<li>View code on <a href="https://github.com/GraciousNgetich/html_resume">GitHub</a></li>
-					</ul>
-					
-					<h4 style="margin-bottom: 0rem">Hosting a Static Website on S3 Bucket</h4>
-					<div class="row">
-								<div class="col-md-3 text-primary">
-									<p style="margin-bottom: .5rem">IN PROGRESS</p>
+				<div class="col-lg-12">
+					<div class="swiper-container swiper-testimony "  >
+						<div class="swiper-wrapper">
+							<div class="swiper-slide single-testimonials ">
+								<div class="single-testimonials-in mx-auto">
+									<div class="single-testimonials-head pt-4 pb-5">
+										<p>"She is a dedicated teammate who makes sure everyone's ideas are heard, and never fails to reach out if someone seems to be struggling. I have always been impressed by her elegant coding solutions, and the initiative she takes to learn and implement new and improved ways of solving problems."</p>
+									</div>	
+									<div class="single-testimonials-foot mx-auto">
+										<img src="https://ca.slack-edge.com/T03F2SDTJ-USRM1SZ7E-gd1c7c531d7b-512" alt="" class="mx-auto b-box">
+										<h4 class="mt-3 font-weight-bold">Crystal Elsey</h4>
+										<span class="mt-1 d-block">Web Developer</span>
+									</div>
 								</div>
-					</div>
-					<p>Steps for setting up the bookstore:</p>
-					<ul>
-						<li>Initialize Ampplify.</li>
-						<li>Add Authentication with cognito</li>
-						<li>Create S3 bucket to store images</li>
-						<li>Lambda functions to Process Book Orders</li>
-						<li>Add GrapgQL API</li>
-						<li>Process Book Orders</li>
-						<li>Connect to cloud resources from React</li>
-						<li>Verify the Customer Orders</li>
-						<li>View Past Orders of a Customer and Orders by Customers</li>
-					<li>Host the application S3</li>
-					</ul>
+							</div>
 
-						<li>View on <a href="https://github.com/GraciousNgetich/bookstore">GitHub</a></li>
-					</ul>
+							<div class="swiper-slide single-testimonials ">
+								<div class="single-testimonials-in mx-auto text-center">
+									<div class="single-testimonials-head pt-4 pb-5">
+										<p>"If you are looking for someone with incredible potential, an eagerness to learn and grow, and a high level of emotional intelligence and teamwork, Sarah will exceed your expectations at every turn."</p>
+									</div>	
+									<div class="single-testimonials-foot mx-auto">
+										<img src="https://media-exp1.licdn.com/dms/image/C4E03AQFBXqx46OaS7Q/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=Dek13qJkTXvtvmG0gX05n-9xUWsklfIWQrY3faeNtgM" alt="" class="mx-auto b-box">
+										<h4 class="mt-3 font-weight-bold">Steve Brownlee</h4>
+										<span class="mt-1 d-block">Head Coach, Instructor at Nashville Software School</span>
+									</div>
+								</div>
+							</div>
 
-					<!-- <h4 style="margin-bottom: 0rem">Infrastructure Cost Analysis</h4>
-					<div class="row">
-						<div class="col-auto">
-							<p class="font-weight-light" style="margin-bottom: 0rem; font-size: 15px">01/2022</p>
-						</div>
+							<div class="swiper-slide single-testimonials ">
+								<div class="single-testimonials-in mx-auto text-center">
+									<div class="single-testimonials-head pt-4 pb-5">
+										<p>"Sarah is a gifted programmer with knack for problem solving and a hunger for learning that makes her an invaluable member of any team she is a part of. During my time as her instructor, Sarah stood out as someone who pursued solutions with a dogged determination and drive that sets her apart from other newly minted developers. If she can find an answer, she will find it, and if she can't she will seek out the mentorship and advice of more senior members until she has the tools she needs to continue."</p>
+									</div>	
+									<div class="single-testimonials-foot mx-auto">
+										<img src="https://media-exp1.licdn.com/dms/image/C4E03AQHQL0kOBAw_lQ/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=D6tsBa7zk4ySFPqvU00rgV6UjpvO53X22mnwWaooQvw" alt="" class="mx-auto b-box">
+										<h4 class="mt-3 font-weight-bold">Mo Silvera</h4>
+										<span class="mt-1 d-block">Junior Instructor at Nashville Software School</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide single-testimonials ">
+								<div class="single-testimonials-in mx-auto text-center">
+									<div class="single-testimonials-head pt-4 pb-5">
+										<p>"Her ability to plan and design, then execute that plan never ceased to amaze me. Her solutions to problems were thoughtful and well executed and in every single case the group was better off for her contributions. When you factor in her creativity and artistic ability with her logic and problem solving skills, Sarah brings a unique combination of skills that are extremely rare and would be an asset to any team.."</p>
+									</div>	
+									<div class="single-testimonials-foot mx-auto">
+										<img src="https://media-exp1.licdn.com/dms/image/C4E03AQGBhvyikj3zag/profile-displayphoto-shrink_800_800/0?e=1603929600&v=beta&t=mrSQoU0u0TKCVytERpBnwy5Up0m6MJ7DHRxeZ2_d8XI" alt="" class="mx-auto b-box">
+										<h4 class="mt-3 font-weight-bold">Derek Buckley</h4>
+										<span class="mt-1 d-block">Web Developer</span>
+									</div>
+								</div>
+							</div>
+
+						<div class="swiper-pagination"></div>
 					</div>
-					<p>Analysis to determine an efficient AWS solution for a static web page.</p>
-					<ul>
-						<li>Measured performance metrics between a static web page hosted on AWS EC2 and AWS S3 using
-							Apache
-							Benchmark.
-						</li>
-						<li>Simulated usage of 800 users to gather data on the monthly cost.</li>
-						<li>Recommended a solution that delivered consistent performance at little to no cost.</li>
-					</ul> -->
+
+					<div class="testimony-nav">
+						<a href="#" class="swiper-button-next"></a>
+						<a href="#" class="swiper-button-prev"></a>
+					</div>
 				</div>
 			</div>
-			<div id="footer">
-				<h2 id="name">gracious</h2>
+		</div>
+	</div>
+</section>
+<!-- END: TESTIMONY -->
+		<!-- START: RESUME -->
+		<section class="section section-resume" id="resume">
+			<div class="container">
+
+				<div class="section-head">
+					<span>experience</span>
+					<h2>Resume</h2>
+				</div>
+				<div class="section-inner p-0 p-md-5">
+					<div class="section-resume-wrap">
+						<div class="section-experience mb-5">
+							<div class="row">
+								<div class="col-lg-3">
+									<h5 class="section-subHead mb-4 ">Work History</h5>
+								</div>
+
+								<div class="col-lg-9">
+									<div class="ExperienceList pb-3">
+
+										<div class="resume-list b-box p-4 ">
+											<div class="row align-items-center">
+												<div class="col-3 col-md-3 pb-3 pb-md-0">
+													Nashville Software School
+												</div>
+												<div class="col-md-8 pb-2 pb-md-0">
+													<h5 class="mb-3">Full Stack Software Developer</h5>
+													<h6 class="badge badge-primary">Feb 2020 - Present</h6>
+													<li>Built single-page applications in teams and individually
+														to create various CRUD web applications</li>
+													<li>Created Feeling Heart:  an individual front end capstone
+														in a 2 week sprint</li>
+													<li>Git and GitHub for version control, project management
+													</li>
+													<li>Practiced agile methodology/ participated in daily
+														stand-ups and sprint retrospectives</li>
+													<li>Experience in remote collaboration, learning,
+														problem-solving (via zoom, VS Code live-share, slack)
+													</li>
+													<li>Experience structuring workflow & wire-framing front end
+														projects</li>
+													<li>Application design through white-boarding dependencies
+														and building ERDs </li>
+
+
+												</div>
+											</div>
+										</div>
+										<div class="resume-list b-box p-4 ">
+											<div class="row align-items-center">
+												<div class="col-3 col-md-3 pb-3 pb-md-0">
+													Sarah Hart Art
+												</div>
+												<div class="col-md-8 pb-2 pb-md-0">
+													<h5 class="mb-3">Abstract Artist, Graphic Designer,
+														Photographer
+														<h6 class="badge badge-danger">2015 - present</h6>
+													</h5>
+													<li>Published "Feeling Heart" : a 16 emotions feelings chart
+														represented through abstract art (2019)</li>
+													<li>"Feeling Heart" painting lessons (my own artistic
+														technique honed over 6 years) </li>
+													<li>Provide painting lessons to businesses, organizations &
+														corporations for team-building exercises </li>
+													<li>Created album art for various Nashville musicians</li>
+													<li>"Feeling Heart" solo show (October-December 2019) at The
+														Browsing Room Gallery </li>
+													<li>"Emotional Landscapes" solo show (November 2019) at Lab
+														Canna </li>
+													<li>Group shows : The Gallery at Fort Houston, Fieldhouse
+														Jones, The Porch, Turnip Green </li>
+												</div>
+											</div>
+										</div>
+										<div class="resume-list b-box p-4 ">
+											<div class="row align-items-center">
+												<div class="col-3 col-md-3 pb-3 pb-md-0">
+													University of Kentucky
+												</div>
+												<div class="col-md-8 pb-3 pb-md-0">
+													<h5 class="mb-3">French Instructor
+														<h6 class="badge badge-success">2015 - 2018</h6>
+													</h5>
+													<li>Taught 4 introductory French classes each semester</li>
+													<li>Responsible for around 100 students each semester</li>
+													<li>Recruited students to become French Majors or Minors
+													</li>
+													<li>Redesigned a 4th semester French language course
+														centered around the novel "The Little Prince" that has
+														continued to be taught by other TAs and FTIs</li>
+													<li>Created visually appealing content based on realia
+														(lesson plans, activities, quizzes)</li>
+													<li>Mentored first year French Teaching Assistants</li>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="section-inner p-0 p-md-5">
+							<div class="section-resume-wrap">
+								<div class="section-experience mb-5">
+									<div class="row">
+										<div class="col-lg-3">
+											<h5 class="section-subHead mb-4 ">Education</h5>
+										</div>
+
+										<div class="col-lg-9">
+											<div class="ExperienceList pb-3">
+
+												<div class="resume-list b-box p-4 ">
+													<div class="row align-items-center">
+														<div class="col-3 col-md-3 pb-3 pb-md-0">
+															Nashville Software School </div>
+														<div class="col-md-5 pb-2 pb-md-0">
+															<h5 class="mb-3">Software Development, Certificate
+															</h5>
+															<p>Full-time 6-month intensive full stack software
+																development bootcamp focused on front end (HTML,
+																JavaScript, React) and back end (.NET, C#, SQL
+																server) fundamentals with an emphasis on problem
+																solving and working in teams.</p>
+														</div>
+														<div class="col-md-4 text-md-right">
+															<h6 class="badge badge-primary">Feb 2020 -
+																Present</h6>
+														</div>
+
+													</div>
+												</div>
+												<div class="resume-list b-box p-4 ">
+													<div class="row align-items-center">
+														<div class="col-3 col-md-3 pb-3 pb-md-0">
+															University of Kentucky
+														</div>
+														<div class="col-md-5 pb-2 pb-md-0">
+															<h5 class="mb-3">MA, French & Francophone Language,
+																Culture, & Literature </h5>
+															<p>4.0 GPA, Summa Cum Laude.</p>
+														</div>
+														<div class="col-md-4 text-md-right">
+															<h6 class="badge badge-success">2011 - 2013</h6>
+														</div>
+
+													</div>
+												</div>
+												<div class="resume-list b-box p-4 ">
+													<div class="row align-items-center">
+														<div class="col-3 col-md-3 pb-3 pb-md-0">
+															Murray State University
+														</div>
+														<div class="col-md-5 pb-2 pb-md-0">
+															<h5 class="mb-3">BA, International Affairs & French
+															</h5>
+															<p>3.8 GPA, Summa Cum Laude.</p>
+														</div>
+														<div class="col-md-4 text-md-right">
+															<h6 class="badge badge-danger">2011 - 2013</h6>
+														</div>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<!-- END: RESUME -->
+
+		<!-- START: BLOG -->
+		<!-- <section class="section" id="blog">
+					<div class="container">
+						<div class="section-head">
+							<span>BLOG</span>
+							<h2>My Articles</h2>
+						</div>
+
+						<div class="section-inner p-0 p-md-5">
+							<div class="row">
+								<div class="col-md-4">
+									<a href="#" class="blog-list d-block mb-5 ">
+										<div class="blog-list--img">
+											<img src="assets/images/blog-1.jpg" alt="Blog Image" class="img-fluid">
+											<div
+												class="blog-list--details d-flex justify-content-center align-items-center">
+												<div class="blog-list--details-in">
+													<p class="blog-date text-white">02 Jan, 2020</p>
+													<span class="blog-by">- Alice Joe</span>
+												</div>
+											</div>
+										</div>
+										<div class="blog-list--desc p-4">
+											<span class="blog-cat badge badge-primary">Passion</span>
+											<h3>10 tips for drawing with coloured pencils</h3>
+										</div>
+									</a>
+								</div>
+								<div class="col-md-4">
+									<a href="#" class="blog-list d-block mb-5 ">
+										<div class="blog-list--img">
+											<img src="assets/images/blog-2.jpg" alt="Blog Image" class="img-fluid">
+											<div
+												class="blog-list--details d-flex justify-content-center align-items-center">
+												<div class="blog-list--details-in">
+													<p class="blog-date text-white">02 Jan, 2020</p>
+													<span class="blog-by">- Alice Joe</span>
+												</div>
+											</div>
+										</div>
+										<div class="blog-list--desc p-4">
+											<span class="blog-cat badge badge-success">Design</span>
+											<h3>10 tips for drawing with coloured pencils</h3>
+										</div>
+									</a>
+								</div>
+								<div class="col-md-4">
+									<a href="#" class="blog-list d-block mb-5 ">
+										<div class="blog-list--img">
+											<img src="assets/images/blog-3.jpg" alt="Blog Image" class="img-fluid">
+											<div
+												class="blog-list--details d-flex justify-content-center align-items-center">
+												<div class="blog-list--details-in">
+													<p class="blog-date text-white">02 Jan, 2020</p>
+													<span class="blog-by">- Alice Joe</span>
+												</div>
+											</div>
+										</div>
+										<div class="blog-list--desc p-4">
+											<span class="blog-cat badge badge-danger">Design</span>
+											<h3>10 tips for drawing with coloured pencils</h3>
+										</div>
+									</a>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col-lg-12 text-center">
+									<a href="blog.html" class="btn">View More</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</section>
+				< END: BLOG -->
+
+
+			</div>
+		</section>
+		<!-- END: CONTACT -->
+
+	</div>
+
+
+	<!-- Root element of PhotoSwipe. Must have class pswp. -->
+	<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+		<!-- Background of PhotoSwipe. 
+         It's a separate element, as animating opacity is faster than rgba(). -->
+		<div class="pswp__bg"></div>
+
+		<!-- Slides wrapper with overflow:hidden. -->
+		<div class="pswp__scroll-wrap">
+
+			<!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+			<!-- don't modify these 3 pswp__item elements, data is added later on. -->
+			<div class="pswp__container">
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+				<div class="pswp__item"></div>
+			</div>
+
+			<!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+			<div class="pswp__ui pswp__ui--hidden">
+				<div class="pswp__top-bar">
+					<!--  Controls are self-explanatory. Order can be changed. -->
+					<div class="pswp__counter"></div>
+					<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+					<button class="pswp__button pswp__button--share" title="Share"></button>
+					<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+					<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+					<!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+					<!-- element will get class pswp__preloader--active when preloader is running -->
+					<div class="pswp__preloader">
+						<div class="pswp__preloader__icn">
+							<div class="pswp__preloader__cut">
+								<div class="pswp__preloader__donut"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+					<div class="pswp__share-tooltip"></div>
+				</div>
+
+				<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+				</button>
+
+				<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+				</button>
+
+				<div class="pswp__caption">
+					<div class="pswp__caption__center"></div>
+				</div>
 			</div>
 		</div>
 	</div>
 
+	<!-- JAVASCRIPTS -->
 
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-		crossorigin="anonymous"></script>
+	<script src="assets/js/vendor.js"></script>
+	<script src="assets/plugins/js/jquery.fancybox.min.js"></script>
 
+	<script src="assets/js/parallax.min.js"></script>
+	<script src="assets/js/photoswipe.min.js"></script>
+	<script src="assets/js/photoswipe-ui-default.min.js"></script>
+
+
+	<!-- Custom Js -->
+	<script src="assets/js/imagesloaded.pkgd.js"></script>
+	<script src="assets/js/jquery.shuffle.min.js"></script>
+	<script src="assets/js/custom-shuffle-init.js"></script>
+	<script src="assets/js/pswp.js"></script>
+
+	<script src="assets/js/custom.js"></script>
 </body>
 
 </html>
